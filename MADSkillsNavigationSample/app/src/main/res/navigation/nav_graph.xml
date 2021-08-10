@@ -32,9 +32,10 @@
         android:name="com.android.samples.donuttracker.DonutEntryDialogFragment"
         android:label="DonutEntryDialogFragment">
         <deepLink app:uri="myapp://navdonutcreator.com/donutcreator" />
+        <deepLink app:uri="myapp://navdonutcreator.com/donutcreatorAdd" />
         <argument
             android:name="itemId"
-            app:argType="long"
-            android:defaultValue="-1L" />
+            android:defaultValue="-1L"
+            app:argType="long" />
     </dialog>
 </navigation>
